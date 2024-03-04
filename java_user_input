@@ -1,1 +1,11 @@
-
+import java.util.Scanner;
+class Java_user_input
+{
+  public static void main(String[] args)
+  {
+      Scanner srinu=new Scanner(System.in);
+      System.out.println("enter your name:");
+      String name=srinu.nextLine();
+      System.out.println("welcome:"+name);
+  }
+}
